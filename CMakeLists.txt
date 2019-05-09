@@ -3,4 +3,4 @@ project(tread_pool)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(tread_pool main.cpp thread_safe_queue.cpp thread_safe_queue.h)
+add_executable(thread_pool main.cpp thread_pool.cpp thread_pool.h thread_safe_queue.cpp thread_safe_queue.h)
