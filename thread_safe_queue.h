@@ -45,7 +45,6 @@ public:
         return true;
     }
 
-
     std::shared_ptr<T> try_pop() {
         std::lock_guard<std::mutex> lk(mut);
         if (data_queue.empty())
